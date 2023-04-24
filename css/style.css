@@ -24,7 +24,7 @@ table, td, tr, th{
     width: auto;
     margin: 5px;
     padding: 20px;
-    background-color: rgb(255, 255, 255);
+   
 }
 .idtabela{
     display: flex;
@@ -33,6 +33,9 @@ table, td, tr, th{
     margin: 10px;
 }
 .container-tabela{
-    background-color: blue;
+   
 
+}
+.paciente-invalido{
+    background-color: lightcoral;
 }
