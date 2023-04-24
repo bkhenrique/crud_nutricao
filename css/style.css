@@ -32,10 +32,33 @@ table, td, tr, th{
     text-align: center;
     margin: 10px;
 }
-.container-tabela{
+.container{
+    width: 500px;
+    min-height: 560px;
+    margin: 0px auto;
+    position: relative;
+}
+#form-adiciona{
+    
+    justify-content: center;
+}
+.grupo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+#adicionar-paciente{
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: aquamarine;
+    border: 1px solid #000;
+    border-radius: 5px;
    
-
 }
 .paciente-invalido{
     background-color: lightcoral;
+}
+.idform{
+    display: flex;
+    justify-content: center;
 }
