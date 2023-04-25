@@ -19,14 +19,20 @@ botaoAdicionar.addEventListener("click" ,function(event){
     return; 
   }
    
-  var tabela = document.querySelector("#tabela-pacientes");
+  adicionaPacienteNaTabela(paciente);
     
-  tabela.appendChild(pacienteTr)
+  
   
   //limpar campos do form
   form.reset();
 
 });
+
+function adicionaPacienteNaTabela(paciente){
+    var pacienteTr = montaTr(paciente);
+    var tabela = document.querySelector("#tabela-pacientes");
+    tabela.appendChild(pacienteTr)
+}
 
 function obtemPacenteDoFormulario(form){
 

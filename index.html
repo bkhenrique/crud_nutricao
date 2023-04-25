@@ -15,10 +15,11 @@
     </header>
     <main>
         <section>
-            <label for="filtrar-tabela">Filtre:</label>
-            <input type="text" name="filtro" id="filtrar-tabela" placeholder="Digite o nome do Paciente">
             <div class="idtabela">
                 <div class="container-tabela">
+                    <label for="filtrar-tabela">Filtre:</label>
+                    <input type="text" name="filtro" id="filtrar-tabela" placeholder="Digite o nome do Paciente">
+                    <button id="buscar-pacientes" class="botao-bto-principal">Buscar Pacientes</button>
             <table>
               <thead>
                 <tr>
@@ -64,7 +65,9 @@
         </div>
       </section>
     </main>
- <div class="idform">   <!-- ... -->
+ <div class="idform">  
+     <!-- ... -->
+<div class="inserir">
 <section class="container">
     <h2 id="titulo-form">Adicionar novo paciente</h2>
     <form id="form-adiciona">
@@ -86,7 +89,9 @@
         </div>
 
         <button id="adicionar-paciente" class="botao bto-principal">Adicionar</button>
+        
     </form>
+</div>
 </div>
 </section>
 <script src="./js/calcula-imc.js"></script>
@@ -94,5 +99,6 @@
     <script src="./js/form.js"></script>
     <script src="./js/remover-pacientes.js"></script>
     <script src="./js/filtra.js"></script>
+    <script src="./js/buscar.js"></script>
   </body>
 </html>

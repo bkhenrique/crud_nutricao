@@ -9,7 +9,7 @@ header{
     display: flex;
     justify-content: center;
     height: 120px;
-    background-color: black;
+    background-color: rgba(107, 104, 104, 0.479);
     height: 100px;
 
     
@@ -17,7 +17,7 @@ header{
 .sitename{
     font-size: 35px;
     text-align: center;
-    background-color: darkgoldenrod;
+    background-color: rgba(216, 171, 58, 0.582);
 }
 table, td, tr, th{
     border:1px solid black;
@@ -32,12 +32,7 @@ table, td, tr, th{
     text-align: center;
     margin: 10px;
 }
-.container{
-    width: 500px;
-    min-height: 560px;
-    margin: 0px auto;
-    position: relative;
-}
+
 #form-adiciona{
     
     justify-content: center;
@@ -75,4 +70,22 @@ table, td, tr, th{
 }
 .invisivel{
     display: none;
+}
+.botao-bto-principal{
+    border-color: blue;
+    background-color: burlywood;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+}
+.inserir{
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    height:20%;
+    margin: auto;
+    box-shadow: 10px 10px 15px black;
+    background-color: rgba(56, 55, 55, 0.384);
+    border-radius: 10px;
+    text-shadow: 2px 2px 5px rgb(214, 247, 214);  
 }

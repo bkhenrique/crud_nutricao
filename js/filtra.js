@@ -10,7 +10,8 @@ if(this.value.length > 0){
         var tdNome = paciente.querySelector(".info-nome");
         var nome = tdNome.textContent;
         console.log(nome);
-        if(nome != this.value){
+        var expressao = new RegExp(this.value,"i");
+        if(!expressao.test(nome)){
             paciente.classList.add("invisivel");
         }else{
             paciente.classList.remove("invisivel");
