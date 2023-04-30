@@ -1,3 +1,6 @@
+:root{
+    background-color: rgb(224, 209, 209);
+}
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -54,8 +57,7 @@ table, td, tr, th{
     background-color: lightcoral;
 }
 .idform{
-    display: flex;
-    justify-content: center;
+  
 }
 
 .fadeOut{
@@ -81,11 +83,22 @@ table, td, tr, th{
 .inserir{
     display: flex;
     justify-content: center;
-    width: 25%;
-    height:20%;
-    margin: auto;
+    text-align: center;
+   margin-bottom: 10px;
     box-shadow: 10px 10px 15px black;
-    background-color: rgba(56, 55, 55, 0.384);
+    background-color: rgba(231, 237, 238, 0.658);
     border-radius: 10px;
     text-shadow: 2px 2px 5px rgb(214, 247, 214);  
+}
+.container{
+
+    
+}
+#adicionar-paciente{
+    text-align: center;
+    font-size: 20px;
+}
+.campo{
+    height: 30px;
+    width: auto;
 }
