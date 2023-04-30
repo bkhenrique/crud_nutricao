@@ -56,10 +56,6 @@ table, td, tr, th{
 .paciente-invalido{
     background-color: lightcoral;
 }
-.idform{
-  
-}
-
 .fadeOut{
     opacity: 0;
     transition: 1s;
@@ -89,10 +85,6 @@ table, td, tr, th{
     background-color: rgba(231, 237, 238, 0.658);
     border-radius: 10px;
     text-shadow: 2px 2px 5px rgb(214, 247, 214);  
-}
-.container{
-
-    
 }
 #adicionar-paciente{
     text-align: center;
